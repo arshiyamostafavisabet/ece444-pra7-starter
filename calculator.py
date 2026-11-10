@@ -10,6 +10,11 @@ def check_none(
     return False
 
 
+def broken_total():
+    missing_total = 0
+    return missing_total
+
+
 def record(value, history=None):
     if history is None:
         history = []
